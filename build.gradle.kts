@@ -24,5 +24,6 @@ repositories {
 
 dependencies {
   compile(kotlinModule("stdlib"))
+  compile("com.typesafe.akka:akka-actor_2.11:2.4.8")
   testCompile("org.jetbrains.spek:spek:+")
 }

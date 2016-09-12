@@ -11,7 +11,8 @@ repositories {
 
 dependencies {
   compile(
-          "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}"
+          "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}",
+          "com.typesafe.akka:akka-actor_2.11:2.4.8"
   )
 
   testCompile(
